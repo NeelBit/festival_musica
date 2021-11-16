@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de música</title>
+
+    <link rel="stylesheet" href="build/css/app.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+
+            <h1>Festival de música</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#artistas">Artistas</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="video">
+
+        <div class="overlay">
+
+            <div class="contenedor contenido-video">
+
+                <h2>Festival de música
+                    <span>
+                        21/12/2021, Capital, Argentina
+                    </span>
+                </h2>
+
+            </div>
+
+        </div>
+
+        <video autoplay muted loop>
+        
+            <source src="video/concierto.webm" type="video/webm">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.mp4" type="video/mp4">
+
+        </video>
+
+    </div>
+
+    <!-- sobre-festival -->
+    <section class="contenedor sobre-festival">
+
+        <picture>
+            <img class="sobre-festival__img" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </picture>
+
+        <div class="sobre-festival__info">
+            <h2>Festival de música</h2>
+            <h4>21 de Diciembre del 2021. Capital, Argentina</h4>
+            <p>Disfruta del gran festival musical que mueve a miles, en 5 días de puro rock, electrónica y buena música. Artistas invitados de todo el continente</p>
+        </div>
+
+    </section>
+
+    <!-- artistas -->
+    <section class="artistas" id="artistas">
+
+        <h2>Artistas</h2>
+
+        <h4>Martes 21</h4>
+
+        <div class="escenarios contenedor">
+
+            <div class="escenario rock bg-amarillo">
+                
+                <p>Escenario rock</p>
+
+                <ul class="calendario">
+                    <li>17:00 | Metallita</li>
+                    <li>18:00 | Korn</li>
+                    <li>19:00 | Linkin park</li>
+                    <li>20:00 | Flema</li>
+                    <li>21:00 | 2 Minutos</li>
+                    <li>22:00 | La 25</li>
+                </ul>
+
+            </div>
+
+            <div class="escenario electronica bg-teal">
+
+                <p>Escenario electrónica</p>
+                
+                <ul class="calendario">
+                    <li>17:00 | BENNY BENASSI</li>
+                    <li>18:00 | Daft punk</li>
+                    <li>19:00 | chemical brothers</li>
+                    <li>20:00 | DJ Dero</li>
+                    <li>21:00 | Dj Phynn</li>
+                    <li>22:00 | Dj Bobo</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <h4>Miércoles 22</h4>
+
+        <div class="escenarios contenedor">
+
+            <div class="escenario rock bg-amarillo">
+
+                <p>Escenario rock</p>
+
+                <ul class="calendario">
+                    <li>17:00 | La gente</li>
+                    <li>18:00 | Kapanga</li>
+                    <li>19:00 | Turf</li>
+                    <li>20:00 | FOO FIGHTERS</li>
+                    <li>21:00 | Green day</li>
+                    <li>22:00 | Blink 182</li>
+                </ul>
+
+            </div>
+
+            <div class="escenario electronica bg-teal">
+
+                <p>Escenario electrónica</p>
+
+                <ul class="calendario">
+                    <li>17:00 | David guetta</li>
+                    <li>18:00 | Global Deejays</li>
+                    <li>19:00 | Bob sinclar</li>
+                    <li>20:00 | Armin Van Buuren</li>
+                    <li>21:00 | Federico Franchi</li>
+                    <li>22:00 | Freeform Five</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- galeria -->
+    <section class="galeria" id="galeria">
+
+        <h2>Galería</h2>
+
+        <ul class="galeria__img contenedor">
+        </ul>
+
+    </section>
+    
+    <!-- boletos -->
+    <section class="boletos bg-teal" id="boletos">
+
+        <h2>Boletos</h2>
+
+        <div class="boletos__contenedor contenedor"> 
+
+            <div class="plan basico">
+
+                <h3>Pase 1 día</h3>
+
+                <!-- tabla 1 -->
+                <table class="pase">
+
+                    <thead>
+                        <tr>
+                            <th> Incluye</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Acceso a todos los escenarios</td>
+                        </tr>
+
+                        <tr>
+                            <td>Comida y bebidas</td>
+                        </tr>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td> $100 </td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+            </div>
+
+            <div class="plan premium">
+
+                <h3>Pase 2 días</h3>
+
+                <!-- tabla 2 -->
+                <table class="pase">
+
+                    <thead>
+                        <tr>
+                            <th> Incluye</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Acceso a todos los escenarios</td>
+                        </tr>
+
+                        <tr>
+                            <td>Comida y bebidas</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Camisa del evento</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Pase VIP</td>
+                        </tr>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td> $200 </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <p class="footer__texto">Festival música. Todos los derechos reservados <small class="footer__year">2021</small>.</p> <address class="footer__autor">By Neel</address>
+
+    </footer>
+
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
