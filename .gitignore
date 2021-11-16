@@ -1,3 +1,5 @@
+**/*.map
+**/**.map
 *.map
 build/css/app.css.map
 build/js/bundle.js.map
